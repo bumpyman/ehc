@@ -1,0 +1,156 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>ehealth_connector-fatjar-ch</artifactId>
+	<name>eHealthConnector FAT Jar CH</name>
+
+
+	<parent>
+		<groupId>org.ehealth_connector</groupId>
+		<artifactId>ehealth_connector-fatjar</artifactId>
+		<version>1.4-SNAPSHOT</version>
+	</parent>
+
+	<properties>
+		<maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
+	</properties>
+
+	<dependencies>
+   		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>addressing</artifactId>
+			<type>mar</type>
+			<version>1.41</version>
+		</dependency>
+ 		<dependency>
+			<groupId>org.ehealth_connector.communication.ch</groupId>
+			<artifactId>ehealth_connector-communication-ch</artifactId>
+			<version>1.4-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.ehealth_connector.validation.service</groupId>
+			<artifactId>ehealth_connector-validation-service</artifactId>
+			<version>1.4-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+		
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<useDefaultManifestFile>true</useDefaultManifestFile>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<descriptors>
+						<descriptor>src/main/assembly/jar-with-dependencies.xml</descriptor>
+					</descriptors>
+					<finalName>ehealthconnector-ch</finalName>
+					<appendAssemblyId>false</appendAssemblyId>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+						</manifest>
+						<manifestEntries>
+							<Build-Time>${maven.build.timestamp}</Build-Time>
+						</manifestEntries>
+						<manifestSections>
+							<manifestSection>
+								<name>ProjektInfos</name>
+								<manifestEntries>
+									<Projekt>${project.name}</Projekt>
+									<Version>${project.version}</Version>
+									<GroupId>${project.groupId}</GroupId>
+									<ArtifactId>${project.artifactId}}</ArtifactId>
+									<Url>https://sourceforge.net/projects/ehealthconnector/</Url>
+								</manifestEntries>
+							</manifestSection>
+						</manifestSections>
+					</archive>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>attached</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<!--plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-antrun-plugin</artifactId> 
+				<configuration> <target> <copy failonerror="false" file="${project.build.directory}/ehealthconnector-ch.jar" tofile="${basedir}../../../../demo/javascript/ehealthconnector-ch.jar" /> 
+				</target> </configuration> <executions> <execution> <phase>package</phase> 
+				<goals> <goal>run</goal> </goals> </execution> </executions> </plugin -->
+		</plugins>
+	</build>
+
+	<profiles>
+		<profile>
+			<id>ehc4dotnet</id>
+			<!-- activation> <os> <family>Windows</family> </os> </activation -->
+			<!-- Converts the ehealthconnector library to a .net version using IKVMC -->
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-antrun-plugin</artifactId>
+						<configuration>
+							<property name="mvnValue" value="${project.version}" />
+							<target>
+								<exec executable="ikvmc">
+									<arg value="-version:${dll.version}" />
+									<arg value="-target:library" />
+									<arg value="-nowarn:warning" />
+									<arg value="-out:${project.build.directory}/ehealthconnector-ch.dll" />
+									<arg value="${project.build.directory}/ehealthconnector-ch.jar" />
+								</exec>
+							</target>
+						</configuration>
+						<executions>
+							<execution>
+								<phase>package</phase>
+								<goals>
+									<goal>run</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>build-helper-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>attach-artifacts</id>
+								<phase>package</phase>
+								<goals>
+									<goal>attach-artifact</goal>
+								</goals>
+								<configuration>
+									<artifacts>
+										<artifact>
+											<file>${project.build.directory}/ehealthconnector-ch.dll</file>
+											<type>dll</type>
+										</artifact>
+									</artifacts>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+</project>

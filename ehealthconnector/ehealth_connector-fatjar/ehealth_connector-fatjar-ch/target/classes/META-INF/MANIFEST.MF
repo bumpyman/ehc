@@ -1,0 +1,77 @@
+Manifest-Version: 1.0
+Built-By: bornt
+Build-Time: 2016-11-16 16:08
+Class-Path: axis2-kernel-1.4.1.jar commons-httpclient-3.1.jar commons-
+ fileupload-1.2.jar httpcore-4.4.1.jar httpcore-nio-4.4.1.jar wsdl4j-1
+ .6.2.jar backport-util-concurrent-3.1.jar XmlSchema-1.4.2.jar neethi-
+ 2.0.4.jar woden-api-1.0M8.jar ant-1.7.0.jar ant-launcher-1.7.0.jar xm
+ lParserAPIs-2.6.0.jar woden-impl-dom-1.0M8.jar annogen-0.1.0.jar gero
+ nimo-jms_1.1_spec-1.1.jar commons-logging-1.1.1.jar axiom-api-1.2.7.j
+ ar geronimo-activation_1.1_spec-1.0.1.jar geronimo-javamail_1.4_spec-
+ 1.2.jar jaxen-1.1.1.jar xml-apis-1.3.04.jar axiom-impl-1.2.7.jar axio
+ m-dom-1.2.7.jar mail-1.4.jar activation-1.1.jar xalan-2.7.0.jar wstx-
+ asl-3.2.4.jar geronimo-stax-api_1.0_spec-1.0.1.jar xercesImpl-2.8.1.j
+ ar commons-io-2.4.jar ehealth_connector-communication-ch-1.4-SNAPSHOT
+ .jar ehealth_connector-common-ch-1.4-SNAPSHOT.jar ehealth_connector-c
+ ommon-gen-1.4-SNAPSHOT.jar hapi-fhir-structures-dstu2-1.4.jar hapi-fh
+ ir-base-1.4.jar javax.json-api-1.0.jar javax.json-1.0.4.jar woodstox-
+ core-asl-4.4.1.jar stax-api-1.0-2.jar stax2-api-3.1.4.jar commons-lan
+ g3-3.4.jar jcl-over-slf4j-1.7.14.jar httpclient-4.4.1.jar org.openhea
+ lthtools.mdht.uml.cda.ch-1.4-SNAPSHOT.jar org.openhealthtools.mdht.um
+ l.cda.ihe.pharm-1.4-SNAPSHOT.jar org.openhealthtools.mdht.uml.cda.ihe
+ .pcc-1.4-SNAPSHOT.jar org.openhealthtools.ihe.utils-2.0.2.jar ehealth
+ _connector-valueset-api-1.4-SNAPSHOT.jar ehealth_connector-communicat
+ ion-gen-1.4-SNAPSHOT.jar hl7v3-core-1.0.0.jar ehealth_connector-cda-g
+ en-1.4-SNAPSHOT.jar org.openhealthtools.mdht.uml.cda.ihe.lab-1.4-SNAP
+ SHOT.jar org.openhealthtools.mdht.uml.cda.ihe-1.4-SNAPSHOT.jar org.op
+ enhealthtools.mdht.uml.cda.cdt-1.4-SNAPSHOT.jar org.openhealthtools.m
+ dht.uml.cda.ccd-1.4-SNAPSHOT.jar org.openhealthtools.mdht.uml.cda-1.4
+ -SNAPSHOT.jar java-2.0.17-v201004271640.jar contenttype-3.4.200-v2013
+ 0326-1255.jar jobs-3.5.300-v20130429-1813.jar runtime-3.9.100-v201312
+ 18-1515.jar app-1.3.200-v20130910-1609.jar org.eclipse.equinox.app-1.
+ 3.100.jar common-3.6.200-v20130402-1505.jar preferences-3.5.100-v2013
+ 0422-1538.jar registry-3.5.301-v20130717-1549.jar common-1.1.0-v20130
+ 531-0544.jar ecore-3.3.0-v20130520-1222.jar ocl-3.3.0-v20140120-1508.
+ jar org.eclipse.emf.ecore-2.11.1-v20150805-0538.jar org.eclipse.emf.e
+ core.xmi-2.11.1-v20150805-0538.jar osgi-3.9.1-v20140110-1610.jar comm
+ on-1.8.2-v20140202-2055.jar types-1.1.0-v20140202-2055.jar ecore-2.9.
+ 2.v20131212.jar common-2.9.2.v20131212.jar xmi-2.9.1.v20131212.jar ru
+ ntime-2.5.16.201512191940.jar cda-2.5.16.201512191940.jar org.openhea
+ lthtools.mdht.uml.hl7.datatypes-1.4-SNAPSHOT.jar rim-2.5.16.201512191
+ 940.jar vocab-2.5.16.201512191940.jar org.openhealthtools.ihe.xds-2.0
+ .2.jar org.openhealthtools.ihe.xds.source-2.0.2.jar org.openhealthtoo
+ ls.ihe.xds.consumer-2.0.2.jar org.openhealthtools.ihe.xds.soap-2.0.2.
+ jar org.openhealthtools.ihe.xds.metadata-2.0.2.jar org.openhealthtool
+ s.ihe.xds.metadata.transform-2.0.2.jar org.openhealthtools.ihe.xds.me
+ tadata.extract-2.0.2.jar org.openhealthtools.ihe.xds.metadata.extract
+ .cdar2-2.0.2.jar org.openhealthtools.ihe.xdm-2.0.2.jar org.eclipse.oh
+ f.utilities-0.2.0.200812311053.jar org.openhealthtools.ihe.atna.audit
+ or-2.0.2.jar org.openhealthtools.ihe.atna.context-2.0.2.jar org.openh
+ ealthtools.ihe.atna.nodeauth-2.0.2.jar org.openhealthtools.ihe.common
+ .ebXML._2._1-2.0.2.jar org.openhealthtools.ihe.common.ebXML._3._0-2.0
+ .2.jar org.openhealthtools.ihe.common.hl7v2-2.0.2.jar org.openhealtht
+ ools.ihe.common.hl7v2.client-2.0.2.jar org.openhealthtools.ihe.common
+ .hl7v3-2.0.2.jar org.openhealthtools.ihe.common.hl7v3.client-2.0.2.ja
+ r org.openhealthtools.ihe.common.hl7v3.soap-2.0.2.jar org.openhealtht
+ ools.ihe.common.ws.axis2-2.0.2p.jar org.openhealthtools.ihe.pix.consu
+ mer.v3-2.0.2.jar org.openhealthtools.ihe.pix.consumer-2.0.2.jar org.o
+ penhealthtools.ihe.pix.source-2.0.2.jar org.openhealthtools.ihe.pix.s
+ ource.v3-2.0.2.jar org.openhealthtools.ihe.pdq.consumer-2.0.2.jar org
+ .openhealthtools.ihe.pdq.consumer.v3-2.0.2.jar axis2-java2wsdl-1.4.1.
+ jar axis2-saaj-1.4.1.jar axis2-saaj-api-1.4.1.jar axis2-adb-codegen-1
+ .4.1.jar axis2-adb-1.4.1.jar axis2-codegen-1.4.1.jar commons-lang-2.4
+ .jar commons-codec-1.10.jar log4j-1.2.17.jar slf4j-api-1.7.12.jar ehe
+ alth_connector-cda-ch-1.4-SNAPSHOT.jar addressing-1.4-ehc.jar junit-4
+ .12.jar hamcrest-core-1.3.jar ehealth_connector-validation-service-1.
+ 4-SNAPSHOT.jar Saxon-HE-9.4.jar jdom-1.1.jar xom-1.2.5.jar dom4j-1.6.
+ 1.jar xml-resolver-1.2.jar VALA-4.6.0.0.jar slf4j-log4j12-1.7.12.jar
+Build-Jdk: 1.8.0_101
+Created-By: Maven Integration for Eclipse
+
+Name: ProjektInfos
+Projekt: eHealthConnector FAT Jar CH
+GroupId: org.ehealth_connector
+ArtifactId: ehealth_connector-fatjar-ch
+Version: 1.4-SNAPSHOT
+Url: https://sourceforge.net/projects/ehealthconnector/
+

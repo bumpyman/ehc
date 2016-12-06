@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Built-By: bornt
+Build-Time: 2016-11-16T16:08:20Z
+Class-Path: ehealth_connector-cda-gen-1.4-SNAPSHOT.jar ehealth_connect
+ or-common-gen-1.4-SNAPSHOT.jar hapi-fhir-structures-dstu2-1.4.jar hap
+ i-fhir-base-1.4.jar javax.json-api-1.0.jar javax.json-1.0.4.jar woods
+ tox-core-asl-4.4.1.jar stax-api-1.0-2.jar stax2-api-3.1.4.jar commons
+ -lang3-3.4.jar commons-codec-1.10.jar commons-io-2.4.jar jcl-over-slf
+ 4j-1.7.14.jar httpclient-4.4.1.jar httpcore-4.4.1.jar org.openhealtht
+ ools.ihe.xds.metadata-2.0.2.jar org.openhealthtools.ihe.xds.metadata.
+ transform-2.0.2.jar org.openhealthtools.ihe.xds.metadata.extract-2.0.
+ 2.jar org.openhealthtools.ihe.xds.metadata.extract.cdar2-2.0.2.jar or
+ g.openhealthtools.ihe.common.hl7v2-2.0.2.jar ehealth_connector-values
+ et-api-1.4-SNAPSHOT.jar org.openhealthtools.mdht.uml.cda.ch-1.4-SNAPS
+ HOT.jar org.openhealthtools.mdht.uml.cda.ihe.pharm-1.4-SNAPSHOT.jar o
+ rg.openhealthtools.mdht.uml.cda.ihe.pcc-1.4-SNAPSHOT.jar org.openheal
+ thtools.mdht.uml.cda.ihe.lab-1.4-SNAPSHOT.jar org.openhealthtools.mdh
+ t.uml.cda.ihe-1.4-SNAPSHOT.jar org.openhealthtools.mdht.uml.cda.cdt-1
+ .4-SNAPSHOT.jar org.openhealthtools.mdht.uml.cda.ccd-1.4-SNAPSHOT.jar
+  org.openhealthtools.mdht.uml.cda-1.4-SNAPSHOT.jar java-2.0.17-v20100
+ 4271640.jar contenttype-3.4.200-v20130326-1255.jar jobs-3.5.300-v2013
+ 0429-1813.jar runtime-3.9.100-v20131218-1515.jar app-1.3.200-v2013091
+ 0-1609.jar org.eclipse.equinox.app-1.3.100.jar common-3.6.200-v201304
+ 02-1505.jar preferences-3.5.100-v20130422-1538.jar registry-3.5.301-v
+ 20130717-1549.jar common-1.1.0-v20130531-0544.jar ecore-3.3.0-v201305
+ 20-1222.jar ocl-3.3.0-v20140120-1508.jar org.eclipse.emf.ecore-2.11.1
+ -v20150805-0538.jar org.eclipse.emf.ecore.xmi-2.11.1-v20150805-0538.j
+ ar osgi-3.9.1-v20140110-1610.jar common-1.8.2-v20140202-2055.jar type
+ s-1.1.0-v20140202-2055.jar ecore-2.9.2.v20131212.jar common-2.9.2.v20
+ 131212.jar xmi-2.9.1.v20131212.jar runtime-2.5.16.201512191940.jar cd
+ a-2.5.16.201512191940.jar org.openhealthtools.mdht.uml.hl7.datatypes-
+ 1.4-SNAPSHOT.jar rim-2.5.16.201512191940.jar vocab-2.5.16.20151219194
+ 0.jar org.openhealthtools.ihe.utils-2.0.2.jar
+Build-Jdk: 1.8.0_101
+Created-By: Maven Integration for Eclipse
+
+Name: ProjektInfos
+Projekt: eHealthConnector CDA CH
+GroupId: org.ehealth_connector.cda.ch
+ArtifactId: ehealth_connector-cda-ch
+Version: 1.4-SNAPSHOT
+Url: https://sourceforge.net/projects/ehealthconnector/
+

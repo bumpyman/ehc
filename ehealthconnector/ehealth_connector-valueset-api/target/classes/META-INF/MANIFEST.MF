@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Built-By: bornt
+Build-Time: 2016-11-16T16:08:11Z
+Build-Jdk: 1.8.0_101
+Created-By: Maven Integration for Eclipse
+
+Name: ProjektInfos
+Projekt: eHealthConnector ValueSet API
+GroupId: org.ehealth_connector
+ArtifactId: ehealth_connector-valueset-api
+Version: 1.4-SNAPSHOT
+Url: https://sourceforge.net/projects/ehealthconnector/
+

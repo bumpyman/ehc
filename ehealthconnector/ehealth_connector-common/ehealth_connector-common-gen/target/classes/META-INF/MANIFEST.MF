@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Built-By: bornt
+Build-Time: 2016-11-16T16:08:11Z
+Class-Path: hapi-fhir-structures-dstu2-1.4.jar hapi-fhir-base-1.4.jar 
+ javax.json-api-1.0.jar javax.json-1.0.4.jar woodstox-core-asl-4.4.1.j
+ ar stax-api-1.0-2.jar stax2-api-3.1.4.jar commons-lang3-3.4.jar commo
+ ns-codec-1.10.jar commons-io-2.4.jar jcl-over-slf4j-1.7.14.jar httpcl
+ ient-4.4.1.jar httpcore-4.4.1.jar org.openhealthtools.mdht.uml.cda.ch
+ -1.4-SNAPSHOT.jar org.openhealthtools.mdht.uml.cda.ihe.pharm-1.4-SNAP
+ SHOT.jar org.openhealthtools.mdht.uml.cda.ihe-1.4-SNAPSHOT.jar org.op
+ enhealthtools.mdht.uml.cda.cdt-1.4-SNAPSHOT.jar org.openhealthtools.m
+ dht.uml.cda.ccd-1.4-SNAPSHOT.jar org.openhealthtools.mdht.uml.cda-1.4
+ -SNAPSHOT.jar java-2.0.17-v201004271640.jar contenttype-3.4.200-v2013
+ 0326-1255.jar jobs-3.5.300-v20130429-1813.jar runtime-3.9.100-v201312
+ 18-1515.jar app-1.3.200-v20130910-1609.jar org.eclipse.equinox.app-1.
+ 3.100.jar common-3.6.200-v20130402-1505.jar preferences-3.5.100-v2013
+ 0422-1538.jar registry-3.5.301-v20130717-1549.jar common-1.1.0-v20130
+ 531-0544.jar ecore-3.3.0-v20130520-1222.jar ocl-3.3.0-v20140120-1508.
+ jar org.eclipse.emf.ecore-2.11.1-v20150805-0538.jar org.eclipse.emf.e
+ core.xmi-2.11.1-v20150805-0538.jar osgi-3.9.1-v20140110-1610.jar comm
+ on-1.8.2-v20140202-2055.jar types-1.1.0-v20140202-2055.jar ecore-2.9.
+ 2.v20131212.jar common-2.9.2.v20131212.jar xmi-2.9.1.v20131212.jar ru
+ ntime-2.5.16.201512191940.jar cda-2.5.16.201512191940.jar org.openhea
+ lthtools.mdht.uml.hl7.datatypes-1.4-SNAPSHOT.jar rim-2.5.16.201512191
+ 940.jar vocab-2.5.16.201512191940.jar org.openhealthtools.mdht.uml.cd
+ a.ihe.pcc-1.4-SNAPSHOT.jar org.openhealthtools.mdht.uml.cda.ihe.lab-1
+ .4-SNAPSHOT.jar org.openhealthtools.ihe.xds.metadata-2.0.2.jar org.op
+ enhealthtools.ihe.xds.metadata.transform-2.0.2.jar org.openhealthtool
+ s.ihe.xds.metadata.extract-2.0.2.jar org.openhealthtools.ihe.xds.meta
+ data.extract.cdar2-2.0.2.jar org.openhealthtools.ihe.utils-2.0.2.jar 
+ org.openhealthtools.ihe.common.hl7v2-2.0.2.jar junit-4.12.jar hamcres
+ t-core-1.3.jar slf4j-api-1.7.12.jar slf4j-log4j12-1.7.12.jar ehealth_
+ connector-valueset-api-1.4-SNAPSHOT.jar
+Build-Jdk: 1.8.0_101
+Created-By: Maven Integration for Eclipse
+
+Name: ProjektInfos
+Projekt: eHealthConnector Common Generic
+GroupId: org.ehealth_connector.common
+ArtifactId: ehealth_connector-common-gen
+Version: 1.4-SNAPSHOT
+Url: https://sourceforge.net/projects/ehealthconnector/
+

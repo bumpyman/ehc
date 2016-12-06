@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.ehealth_connector.communication.ch.DocumentMetadataChTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.962 sec
